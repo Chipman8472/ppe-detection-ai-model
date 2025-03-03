@@ -1,0 +1,31 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.venv/
+env/
+venv/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and snapshots
+violation_log.csv
+snapshots/
+
+
+# Ignore IDE and editor settings
+*.vscode/
+.idea/
+
+# Ignore compiled Cython or other binary outputs (if you extend in the future)
+*.so
+*.dll
+*.dylib
+
+# Ignore temporary files
+*.tmp
+*.log
