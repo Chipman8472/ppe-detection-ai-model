@@ -9,7 +9,7 @@ from ultralytics import YOLO
 from datetime import datetime
 
 # ===== CONFIGURABLE SETTINGS =====
-MODEL_PATH = 'best.pt'   # Replace with your actual model path
+MODEL_PATH = 'best.pt'   
 SNAPSHOT_FOLDER = 'snapshots'                  # Folder where violation images will be saved
 CONFIDENCE_THRESHOLD = 0.5                      # Minimum confidence to accept detection
 
